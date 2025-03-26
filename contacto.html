@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>WebPersonal</title>
+  <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+  <header>
+    <h1>OJAMAJO DOREMI</h1>
+  </header>
+  <h2>¡HA LLEGADO EL MOMENTO DE QUE NOS HABLES UN POQUITO SOBRE TI!</h2>
+  <div>
+    <form class="formulario">
+    <label>Nombre:</label>
+    <input type="text" name="name"><br>
+    <label>Género:</label>
+    <input type="radio" name="opcion" value="opcion1"> Hombre
+    <input type="radio" name="opcion" value="opcion2"> Mujer <br>
+    <input type="radio" name="opcion" value="opcion2"> No binario <br>
+    <label>Correo electrónico para recibir novedades sobre la serie:</label>
+    <input type="email" name="correo"> <br>
+    <div>
+      <h4>¿Cuánto te gusta Ojamajo Doremi?</h4>
+      <input class="rango" type="range" name="rango" min="0" max="100" step="1"> <br>
+    </div>
+    <textarea name="mensaje" rows="4" cols="40">Escribe aquí cuál es tu aprendiz de bruja favorita y qué es lo que más te gusta de este anime</textarea> <br>
+    <input type="button" value="Enviar">
+  </form>
+  <footer>
+    (C)Toei Animation. All Rights Reserved
+</footer>
+  </div>
+  <div>
+    <figure>
+      <img class="gif" src="imagenes/doremiandfriends.gif"> 
+    </figure>
+  </div>
+</body>
+
+</html>

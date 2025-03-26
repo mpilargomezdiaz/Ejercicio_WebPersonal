@@ -1,0 +1,65 @@
+img.ojamajodoremi{
+    width: 400px; 
+    height: 180px;
+    position: relative;
+    top: 10px; left: 40px;
+}
+h1, h2{
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'fantasy', Party LET; 
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow:
+    1px 1px 2px rgb(255, 94, 147),
+    0 0 1em rgb(255, 155, 188),
+    0 0 0.2em rgb(248, 120, 162);   
+}
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Arial', sans-serif; 
+    color: #33475b;    
+        }
+
+body{
+    background-image: url(imagenes/fondo2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header, h2{
+    text-align: center;
+  }
+
+p{ 
+    background-color: rgba(255, 148, 223, 0.507);
+    text-align: justify;
+    padding: 3px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(255, 240, 251);
+    position: relative;
+    left: 40px; bottom: 30px;
+  }
+
+nav{
+    background-color: rgba(255, 148, 223, 0.507);
+    padding: 3px;
+    color: rgb(255, 240, 251);
+    position: relative;
+    left: 40px; bottom: 10px;
+  }
+
+a{
+    color: rgb(255, 240, 251);
+  }
+
+a:visited{
+    color: rgb(46, 0, 42);
+}

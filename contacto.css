@@ -1,0 +1,74 @@
+body {
+    background-image: url(imagenes/fondoch.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: 'fantasy', Party LET;
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow:
+        1px 1px 2px rgb(255, 94, 147),
+        0 0 1em rgb(255, 155, 188),
+        0 0 0.2em rgb(248, 120, 162);
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h2 {
+    text-shadow:
+        1px 1px 2px rgb(255, 94, 147),
+        0 0 1em rgb(255, 155, 188),
+        0 0 0.2em rgb(248, 120, 162);
+}
+
+
+.formulario {
+    text-align:left;
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: 'fantasy', Party LET;
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow:
+        1px 1px 2px rgb(255, 94, 147),
+        0 0 1em rgb(255, 155, 188),
+        0 0 0.2em rgb(248, 120, 162);
+    font-size: 40px;
+    background-color: rgba(255, 148, 223, 0.603);
+}
+
+textarea{
+    font-family: 'fantasy', Party LET;
+    font-size: large;
+    color: rgb(155, 0, 72);
+}
+
+h4 {
+    font-size: 30px;
+}
+
+footer{
+    font-family: 'fantasy', Party LET;
+    font-size: large;
+    color: rgb(155, 0, 72);
+    position: relative;
+    left:30px
+}
+ 
+ .gif {
+        width: 250px;
+        height: 175px;
+        position: relative;
+        left: 1100px;
+        bottom: 180px
+}

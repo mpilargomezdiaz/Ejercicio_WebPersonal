@@ -1,0 +1,187 @@
+body {
+    background-image: url(imagenes/fondoch.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: 'fantasy', Party LET;
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow:
+        1px 1px 2px rgb(255, 94, 147),
+        0 0 1em rgb(255, 155, 188),
+        0 0 0.2em rgb(248, 120, 162);
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.doremi, .hazuki, .aiko, .onpu, .poppu {
+    position: relative;
+    bottom: 250px;
+    left: 130px
+}
+
+img.doremi {
+    width: 300px;
+    height: 450px;
+}
+
+img.dodo {
+    width: 190px;
+    height: 190px;
+}
+
+img.rere {
+    width: 190px;
+    height: 230px;
+}
+
+img.mimi {
+    width: 190px;
+    height: 220px;
+}
+
+img.fafa {
+    width: 190px;
+    height: 200px;
+}
+
+img.solsol {
+    width: 200px;
+    height: 190px;
+}
+
+.dodo, .rere, .mimi, .fafa, .solsol {
+    position: relative;
+    bottom: 400px;
+    left: 1390px
+}
+
+
+img.hazuki {
+    width: 250px;
+    height: 450px;
+}
+
+img.aiko {
+    width: 236px;
+    height: 450px;
+}
+
+img.onpu {
+    width: 240px;
+    height: 450px;
+}
+
+img.poppu {
+    width: 240px;
+    height: 365px;
+}
+
+#txtdoremi h3 {
+    color: white;
+    text-shadow:
+        1px 1px 2px rgb(158, 8, 58),
+        0 0 1em rgb(180, 6, 64),
+        0 0 0.2em rgb(173, 27, 76);
+}
+
+#txthazuki h3 {
+    color: rgb(255, 255, 255);
+    text-shadow:
+        1px 1px 2px rgb(158, 68, 8),
+        0 0 1em rgb(180, 76, 6),
+        0 0 0.2em rgb(173, 93, 27);
+}
+
+#txtaiko h3 {
+    color: rgb(255, 255, 255);
+    text-shadow:
+        1px 1px 2px rgb(8, 123, 158),
+        0 0 1em rgb(6, 154, 180),
+        0 0 0.2em rgb(27, 168, 173);
+}
+
+#txtonpu h3 {
+    color: rgb(255, 255, 255);
+    text-shadow:
+        1px 1px 2px rgb(133, 8, 158),
+        0 0 1em rgb(151, 6, 180),
+        0 0 0.2em rgb(168, 27, 173);
+}
+
+#txtpoppu h3 {
+    color: rgb(255, 255, 255);
+    text-shadow:
+        1px 1px 2px rgb(158, 8, 8),
+        0 0 1em rgb(180, 6, 6),
+        0 0 0.2em rgb(173, 49, 27);
+}
+
+.doremi_des, .hazuki_des, .aiko_des, .onpu_des, .poppu_des {
+    font-size: 20px;
+    margin: auto;
+    width: 640px;
+    font-family: 'Arial', sans-serif;
+    color: #33475b;
+    text-align: justify;
+    padding: 3px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(255, 240, 251);
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#txtdoremi, #txthazuki, #txtaiko, #txtonpu, #txtpoppu {
+    position: relative;
+    top: 100px;
+}
+
+.doremi_des {
+    background-color: rgba(255, 148, 223, 0.603);
+}
+
+.hazuki_des {
+    background-color: rgba(255, 165, 92, 0.644);
+}
+
+.aiko_des {
+    background-color: rgba(148, 164, 255, 0.637);
+}
+
+.onpu_des {
+    background-color: rgba(246, 148, 255, 0.623);
+}
+
+.poppu_des {
+    background-color: rgba(255, 148, 148, 0.63);
+}
+
+#padre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
